@@ -194,3 +194,21 @@ canvas{
   user-drag: none;
 
 }
+.wpage{
+  display: flex;
+  justify-content: center;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 52px;
+  margin-top: 15vh;
+}
+.work{
+  width: 378px;
+  height: 220px;
+  border-style: solid;
+  border-image: linear-gradient(rgba(157, 157, 157, 1), rgba(157, 157, 157, 0.27));
+  border-image-slice: 2;
+  overflow: hidden;
+}
