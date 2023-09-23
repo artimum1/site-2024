@@ -14,6 +14,7 @@
   text-decoration: none;
   font-family: 'Poppins';
   font-weight: bold;
+  overflow: hidden;
 
 }
 body,html{
@@ -27,7 +28,8 @@ body{
 .Nav{
   position: fixed;
   top: 50%;
-  left: calc(100% - 80px);
+  left:100%;
+  transform: translateX(-150%);
   display: flex;
   flex-direction: column;
   z-index: 90;
@@ -160,6 +162,7 @@ canvas{
   transition: 1s;
   padding: 40px;
   margin-bottom: 30px;
+  transform: scale(0.8);
 }
 .cardd:hover{
   border: 2px solid #747474;
@@ -185,6 +188,7 @@ canvas{
   margin-left: 75px;
   margin-top: 30px;
   margin-bottom: 75px;
+  display: block;
 }
 .emailT{
   margin-left: 75px;
@@ -203,6 +207,8 @@ canvas{
   grid-template-columns: repeat(3,1fr);
   gap: 52px;
   margin-top: 15vh;
+  height: fit-content;
+  margin-bottom: 100px;
 }
 .work{
   width: 378px;
@@ -211,4 +217,29 @@ canvas{
   border-image: linear-gradient(rgba(157, 157, 157, 1), rgba(157, 157, 157, 0.27));
   border-image-slice: 2;
   overflow: hidden;
+}
+
+@media only screen and (max-width:1250px) {
+  .grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .cvdes{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width:850px) {
+  .grid{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media only screen and (max-width:650px) {
+  .cvtop{
+    display: block;
+  }
+  .cvtoptexts{
+    margin-top: 20px;
+    margin-left: 0 ;
+  }
 }
