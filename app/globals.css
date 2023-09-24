@@ -4,9 +4,10 @@
   background-color: transparent;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: white;
+  background-color: white;;
 }
 *{
+  background-color: transparent;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -43,6 +44,7 @@ body{
   left: 75px;
   top: 25px;
   z-index: 90;
+  background-color: transparent;
 }
 
 .pageTransition{
