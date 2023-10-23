@@ -155,9 +155,9 @@ canvas{
   margin-top: 40px;
 }
 .cardd{
-  margin-left: 75px;
+  margin-left: 25px;
   width: 400px;
-  height: 500px;
+  min-height: 500px;
   border-style: solid;
   border-image: linear-gradient(rgba(68, 68, 68, 1), rgba(0, 0, 0, 0.42));
   border-image-slice: 2; 
@@ -165,6 +165,7 @@ canvas{
   padding: 40px;
   margin-bottom: 30px;
   transform: scale(0.8);
+  overflow-y: visible;
 }
 .cardd:hover{
   border: 2px solid #747474;
@@ -175,8 +176,8 @@ canvas{
 }
 .stuff{
   display: flex;
-  width: 240;
   flex-wrap: wrap;
+  width: 100%;
 }
 .border-radius{
   border-radius: 8px;

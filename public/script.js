@@ -9,5 +9,5 @@ text1.set(
 text1.start()
 text1.reveal(1000)
 setTimeout(() => {
-    document.querySelector(".baffle").innerHTML = "I Do development and design , since i have a good knowledge in art and designing . I also can make API and back-end services , I have knowledge enough in libraries & AI . checking my <a href='https://github.com/artimum1' class='linky'>Github</a> account is a good start for you , i have published good amount of Free demos and projects on <a href='https://replit.com/@artimum' class='linky'>replit</a> accoutn also , I have the superpower of front-end and designing  along my back-end  and little details that makes your users happy , I’m capable to work with teams , give advices , understand your vision and getting the job done at the best quality and the shortest period"
+    document.querySelector(".baffle").innerHTML = `my name is artimum and i'm a 17 year old web-developer , i'm interested in math , physics , computer stuff , chess and art. i do some code demos sometimes , check them on my <a class="linky" href="https://github.com/artimum1">Github</a> or on <a class="linky" href="https://replit.com/artimum">Replit</a> , i share my arts usually on my <a class="linky" href="https://instagram.com/artimum1">Instagram</a> by the way if you are interested also , lets be friends contact me on discord i always reply`
 }, 1090);
