@@ -254,5 +254,9 @@ canvas{
     display: flex;
     flex-wrap: wrap;
   }
+  .work{
+    width: 100%;
+    height: fit-content;
+  }
 
 }
