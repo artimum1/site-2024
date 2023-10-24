@@ -246,3 +246,13 @@ canvas{
     margin-left: 0 ;
   }
 }
+@media only screen and (max-width:400px) {
+  .cv{
+    margin-left: 25px;
+  }
+  .links{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
