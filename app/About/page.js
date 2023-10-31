@@ -24,7 +24,7 @@ export default function About(){
                     </div>
             </div>
             <div className="cvbottom">
-            <p className="cvdes baffle">my name is artimum and i'm a 17 year old web-developer , i'm interested in math , physics , computer stuff , chess and art. i do some code demos sometimes , check them on my <a className="linky" href="https://github.com/artimum1">Github</a> or on <a className="linky" href="https://replit.com/artimum">Replit</a> , i share my arts usually on my <a className="linky" href="https://instagram.com/artimum1">Instagram</a> by the way if you are interested also , lets be friends contact me on discord i always reply</p>
+            <p className="cvdes baffle">my name is artimum and i'm a 17 year old web-developer , i'm interested in math , physics , computer stuff , chess and art. i do some code demos sometimes , check them on my <a className="linky" href="https://github.com/artimum1">Github</a> or on <a className="linky" href="https://replit.com/@artimum">Replit</a> , i share my arts usually on my <a className="linky" href="https://instagram.com/artimum1">Instagram</a> by the way if you are interested also , lets be friends contact me on discord i always reply</p>
             </div>
             </div>
             <div className="cardds">
