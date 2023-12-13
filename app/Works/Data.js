@@ -1,6 +1,6 @@
-"use client"
+
 export default async function Data(){
-    const res = await fetch("https://server.artimum.repl.co/",{cache:"no-cache"})
+    const res = await fetch("https://server.artimum.repl.co/",{next:{revalidate:5}})
     const work = await res.json()
     return(
         <div className="grid">
