@@ -44,26 +44,26 @@ export default function Main() {
     <div className='nav'>
       <Magnet>
         <div className='expand'>
-           <a href='https://youtube.com/@artimum'>Youtube</a>
+           <a target='_blank' href='https://youtube.com/@artimum'>Youtube</a>
         </div>
       </Magnet>
 
       <Magnet>
         <div className='expand'>        
-        <a href='https://github.com/artimum1/'>Github</a> 
+        <a target='_blank' href='https://github.com/artimum1/'>Github</a> 
         </div>
       </Magnet>
 
       <Magnet>
       <div className='expand'>       
-       <a href='https://www.instagram.com/artimum1/'>Instagram</a> 
+       <a target='_blank' href='https://www.instagram.com/artimum1/'>Instagram</a> 
       </div>
 
       </Magnet>
 
       <Magnet>
       <div className='expand'>
-      <a href='https://discord.gg/c57Z8f8ec6'>Discord</a> 
+      <a target='_blank' href='https://discord.gg/c57Z8f8ec6'>Discord</a> 
       </div>
       </Magnet>
     </div>
