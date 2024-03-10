@@ -55,13 +55,6 @@ export default function Main() {
       </Magnet>
 
       <Magnet>
-      <div className='expand'>       
-       <a target='_blank' href='https://www.instagram.com/artimum1/'>Instagram</a> 
-      </div>
-
-      </Magnet>
-
-      <Magnet>
       <div className='expand'>
       <a target='_blank' href='https://discord.gg/c57Z8f8ec6'>Discord</a> 
       </div>
